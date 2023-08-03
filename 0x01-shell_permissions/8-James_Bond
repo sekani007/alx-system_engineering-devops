@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "other users can read, write, and execute" > hello | chmod 000 hello | chmod 111 hello | chmod 222 hello | chmod 444 hello
+chmod o+rwx hello
